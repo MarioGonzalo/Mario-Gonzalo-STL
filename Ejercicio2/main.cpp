@@ -1,6 +1,7 @@
 #include <iostream>
-#include "Geometria.h"
+#include "Geometria.h" // Se incluye el archivo Geometria.h que contiene las funciones de las figuras geométricas
 
+// En el main se llama a las funciones del namespace Geometria
 int main() {
     std::cout << "Area del triangulo: " << Geometria::calcularAreaTriangulo(5, 3) << std::endl;
     std::cout << "Area del circulo: " << Geometria::calcularAreaCirculo(3) << std::endl;

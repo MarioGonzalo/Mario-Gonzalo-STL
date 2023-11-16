@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-
+// Se crea un namespace llamado Matematicas que contiene todas las funciones matemáticas básicas
 namespace Matematicas {
     int suma(int a, int b) {
         return a + b;
@@ -51,6 +51,7 @@ namespace Matematicas {
     }
 }
 
+// En el main se llama a las funciones del namespace Matematicas
 int main() {
     std::cout << "Suma: " << Matematicas::suma(5, 3) << std::endl;
     std::cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
